@@ -1,0 +1,56 @@
+{
+  "name": "sebastian-silva-portfolio",
+  "version": "1.0.0",
+  "description": "Modern portfolio website for Sebastian Silva - Computer Science student and software developer",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=/",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Ready for deployment to any static hosting service'",
+    "lint": "npx htmlhint index.html && npx stylelint styles.css",
+    "format": "npx prettier --write .",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "portfolio",
+    "computer-science",
+    "software-development",
+    "web-development",
+    "react",
+    "javascript",
+    "css",
+    "html"
+  ],
+  "author": {
+    "name": "Sebastian Silva",
+    "email": "sebastian@example.com",
+    "url": "https://sebastiansilva.dev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebastian-silva/portfolio"
+  },
+  "homepage": "https://sebastiansilva.dev",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "live-server": "^1.2.2",
+    "prettier": "^3.0.0",
+    "stylelint": "^15.10.0",
+    "stylelint-config-standard": "^34.0.0"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
+
